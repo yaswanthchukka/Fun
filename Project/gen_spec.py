@@ -56,7 +56,7 @@ You are specialized in   Functional Specification Generation  . Generate a   det
        Do not generate function implementation.     
        Ensure that the recommended checks do not alter the intended functionality of the function.
 """
-file = open('sample1.cc').read()
+file = open('sample.cc').read()
 for function in function_list:
     doxygen_prompt += f"""
         code : {file}
