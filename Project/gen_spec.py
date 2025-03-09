@@ -56,9 +56,10 @@ You are specialized in   Functional Specification Generation  . Generate a   det
        Do not generate function implementation.     
        Ensure that the recommended checks do not alter the intended functionality of the function.
 """
+file = open('sample1.cc').read()
 for function in function_list:
     doxygen_prompt += f"""
-        code : {open('sample.cc').read()}
+        code : {file}
     """
 
 client = Groq(
@@ -79,7 +80,7 @@ llama3_response = chat_completion.choices[0].message.content
 
 # Save documentation
 os.makedirs("docs", exist_ok=True)
-with open("docs/functional_spec.md", "w") as f:
+with open("docs/functional_spec1.md", "w") as f:
     f.write(llama3_response)
 
 print("Documentation updated in docs/functional_spec.md")
