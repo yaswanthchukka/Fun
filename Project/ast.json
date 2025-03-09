@@ -1,0 +1,157 @@
+{
+    "kind": "CursorKind.TRANSLATION_UNIT",
+    "spelling": "sample.cc",
+    "location": null,
+    "children": [
+        {
+            "kind": "CursorKind.FUNCTION_DECL",
+            "spelling": "nci_proc_prop_raw_vs_rsp",
+            "location": "sample.cc : 1",
+            "children": [
+                {
+                    "kind": "CursorKind.PARM_DECL",
+                    "spelling": "p_msg",
+                    "location": "sample.cc : 1",
+                    "children": []
+                },
+                {
+                    "kind": "CursorKind.COMPOUND_STMT",
+                    "spelling": "",
+                    "location": "sample.cc : 1",
+                    "children": [
+                        {
+                            "kind": "CursorKind.DECL_STMT",
+                            "spelling": "",
+                            "location": "sample.cc : 2",
+                            "children": [
+                                {
+                                    "kind": "CursorKind.VAR_DECL",
+                                    "spelling": "op_code",
+                                    "location": "sample.cc : 2",
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "kind": "CursorKind.DECL_STMT",
+                            "spelling": "",
+                            "location": "sample.cc : 3",
+                            "children": [
+                                {
+                                    "kind": "CursorKind.VAR_DECL",
+                                    "spelling": "p_cback",
+                                    "location": "sample.cc : 3",
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "kind": "CursorKind.DECL_STMT",
+                            "spelling": "",
+                            "location": "sample.cc : 6",
+                            "children": [
+                                {
+                                    "kind": "CursorKind.VAR_DECL",
+                                    "spelling": "p_evt",
+                                    "location": "sample.cc : 6",
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "kind": "CursorKind.DECL_STMT",
+                            "spelling": "",
+                            "location": "sample.cc : 7",
+                            "children": [
+                                {
+                                    "kind": "CursorKind.VAR_DECL",
+                                    "spelling": "p",
+                                    "location": "sample.cc : 7",
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "kind": "CursorKind.CALL_EXPR",
+                            "spelling": "",
+                            "location": "sample.cc : 8",
+                            "children": [
+                                {
+                                    "kind": "CursorKind.DECL_REF_EXPR",
+                                    "spelling": "",
+                                    "location": "sample.cc : 8",
+                                    "children": [
+                                        {
+                                            "kind": "CursorKind.OVERLOADED_DECL_REF",
+                                            "spelling": "NCI_MSG_PRS_HDR1",
+                                            "location": "sample.cc : 8",
+                                            "children": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "kind": "CursorKind.UNEXPOSED_EXPR",
+                                    "spelling": "",
+                                    "location": "sample.cc : 8",
+                                    "children": []
+                                },
+                                {
+                                    "kind": "CursorKind.UNEXPOSED_EXPR",
+                                    "spelling": "",
+                                    "location": "sample.cc : 8",
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "kind": "CursorKind.IF_STMT",
+                            "spelling": "",
+                            "location": "sample.cc : 12",
+                            "children": [
+                                {
+                                    "kind": "CursorKind.UNEXPOSED_EXPR",
+                                    "spelling": "",
+                                    "location": "sample.cc : 12",
+                                    "children": [
+                                        {
+                                            "kind": "CursorKind.DECL_REF_EXPR",
+                                            "spelling": "p_cback",
+                                            "location": "sample.cc : 12",
+                                            "children": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "kind": "CursorKind.COMPOUND_STMT",
+                                    "spelling": "",
+                                    "location": "sample.cc : 12",
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "kind": "CursorKind.UNEXPOSED_EXPR",
+                            "spelling": "",
+                            "location": "sample.cc : 17",
+                            "children": [
+                                {
+                                    "kind": "CursorKind.DECL_REF_EXPR",
+                                    "spelling": "",
+                                    "location": "sample.cc : 17",
+                                    "children": [
+                                        {
+                                            "kind": "CursorKind.OVERLOADED_DECL_REF",
+                                            "spelling": "nfc_ncif_update_window",
+                                            "location": "sample.cc : 17",
+                                            "children": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

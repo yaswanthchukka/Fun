@@ -1,0 +1,32 @@
+name: Generate Functional Spec
+
+on:
+  push:
+    paths:
+      - "**/*.cc"
+      - "**/*.h"
+      - "gen_spec.py"
+
+jobs:
+  generate_docs:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.13"
+
+      - name: Run Documentation Script
+        run: |
+          python gen_spec.py
+
+      - name: Commit and Push Documentation
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
+          git add docs/
+          git commit -m "Auto-generated functional spec" || echo "No changes to commit"
+          git push
